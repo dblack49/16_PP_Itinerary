@@ -11,7 +11,6 @@ export function HomePage() {
       <ItineraryHeader />
 
       <div className="max-w-6xl mx-auto px-6 py-12">
-
         {/* Trip Overview */}
         <div className="text-center mb-12">
           <h2
@@ -28,14 +27,13 @@ export function HomePage() {
 
           {/* Action Buttons */}
           <div className="grid md:grid-cols-3 gap-4 mb-8">
-
             {/* Who's Ready - Disabled */}
             <button
               disabled
               className="inline-flex items-center justify-center gap-3 bg-gray-300 text-gray-500 px-6 py-4 rounded-full shadow-xl cursor-not-allowed text-lg"
               style={{ fontFamily: "'Playfair Display', serif" }}
             >
-              Who's Ready (Coming Soon 🚧)
+              Who&apos;s Ready (Coming Soon 🚧)
             </button>
 
             {/* Photo Album - Active */}
@@ -56,7 +54,6 @@ export function HomePage() {
             >
               Split Payments (Coming Soon 💰)
             </button>
-
           </div>
         </div>
 
@@ -86,6 +83,216 @@ export function HomePage() {
           </div>
         </div>
 
+        {/* Day 1 - Friday */}
+        <div className="bg-gradient-to-br from-pink-100 via-pink-50 to-white rounded-3xl p-8 shadow-xl border-4 border-pink-400 mb-8 relative overflow-hidden">
+          <div className="absolute top-0 right-0 w-32 h-32 bg-gradient-to-bl from-yellow-200/30 to-transparent rounded-bl-full" />
+          <div className="relative z-10">
+            <div className="text-center mb-6">
+              <h3 className="text-4xl mb-2" style={{ fontFamily: "'Rye', serif" }}>
+                Day 1 - Friday
+              </h3>
+              <p className="text-lg text-gray-600">February 17, 2026</p>
+            </div>
+
+            <div className="space-y-4">
+              <div className="bg-white rounded-xl p-6 shadow-md">
+                <div className="flex items-center gap-3 mb-2">
+                  <span className="text-2xl">🏠</span>
+                  <span className="text-xl font-bold text-pink-700">Check-in: 3:00 PM</span>
+                </div>
+                <p className="text-gray-600 ml-11">Arrival in Nashville, TN</p>
+              </div>
+
+              <div className="bg-pink-50 rounded-xl p-6 shadow-md">
+                <div className="flex items-center gap-3 mb-2">
+                  <span className="text-2xl">🎁</span>
+                  <span className="text-xl font-bold text-pink-700">Welcome Bag - $50.00</span>
+                </div>
+              </div>
+
+              <Link
+                to="/activities"
+                className="block bg-gradient-to-r from-pink-500 to-pink-600 hover:from-pink-600 hover:to-pink-700 text-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-all hover:scale-105"
+              >
+                <div className="flex items-center justify-between">
+                  <div className="flex items-center gap-3">
+                    <span className="text-2xl">✨</span>
+                    <span className="text-xl" style={{ fontFamily: "'Playfair Display', serif" }}>
+                      Explore Activity Options
+                    </span>
+                  </div>
+                  <span className="text-2xl">→</span>
+                </div>
+                <p className="text-sm text-white/80 mt-2 ml-11">Click to view suggestions</p>
+              </Link>
+
+              <div className="bg-white rounded-xl p-6 shadow-md">
+                <div className="flex items-center gap-3 mb-2">
+                  <span className="text-2xl">🍽️</span>
+                  <span className="text-xl font-bold text-pink-700">Dinner: 7:00 PM</span>
+                </div>
+                <p className="text-gray-800 ml-11 mb-2">
+                  <strong>Noir Restaurant</strong>
+                </p>
+                <a
+                  href="https://noironmain.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="ml-11 text-pink-600 hover:text-pink-700 underline"
+                >
+                  View Menu →
+                </a>
+              </div>
+
+              <div className="bg-gradient-to-r from-pink-200 to-green-200 rounded-xl p-6 shadow-md">
+                <div className="flex items-center gap-3">
+                  <span className="text-2xl">💕</span>
+                  <span className="text-xl font-bold text-gray-800">Pink &amp; Green Pajama Party</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* Day 2 - Saturday */}
+        <div className="bg-gradient-to-br from-green-100 via-green-50 to-white rounded-3xl p-8 shadow-xl border-4 border-green-400 mb-8 relative overflow-hidden">
+          <div className="absolute top-0 right-0 w-32 h-32 bg-gradient-to-bl from-pink-200/30 to-transparent rounded-bl-full" />
+          <div className="relative z-10">
+            <div className="text-center mb-6">
+              <h3 className="text-4xl mb-2" style={{ fontFamily: "'Rye', serif" }}>
+                Day 2 - Saturday
+              </h3>
+              <p className="text-lg text-gray-600">February 18, 2026</p>
+            </div>
+
+            <div className="space-y-4">
+              <div className="bg-white rounded-xl p-6 shadow-md">
+                <div className="flex items-center gap-3 mb-2">
+                  <span className="text-2xl">🥂</span>
+                  <span className="text-xl font-bold text-green-700">Brunch: 12:30 PM</span>
+                </div>
+                <p className="text-gray-800 ml-11 mb-2">
+                  <strong>Linq Restaurant</strong>
+                </p>
+                <a
+                  href="https://www.linqsocialkitchen.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="ml-11 text-green-600 hover:text-green-700 underline"
+                >
+                  View Menu →
+                </a>
+              </div>
+
+              <Link
+                to="/activities"
+                className="block bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-all hover:scale-105"
+              >
+                <div className="flex items-center justify-between">
+                  <div className="flex items-center gap-3">
+                    <span className="text-2xl">✨</span>
+                    <span className="text-xl" style={{ fontFamily: "'Playfair Display', serif" }}>
+                      Explore Activity Options
+                    </span>
+                  </div>
+                  <span className="text-2xl">→</span>
+                </div>
+                <p className="text-sm text-white/80 mt-2 ml-11">Click to view suggestions</p>
+              </Link>
+
+              <div className="bg-green-50 rounded-xl p-6 shadow-md">
+                <div className="flex items-center gap-3">
+                  <span className="text-2xl">🚐</span>
+                  <span className="text-xl font-bold text-green-700">Transportation Provided</span>
+                </div>
+              </div>
+
+              <div className="bg-white rounded-xl p-6 shadow-md">
+                <div className="flex items-center gap-3 mb-2">
+                  <span className="text-2xl">🍝</span>
+                  <span className="text-xl font-bold text-green-700">Dinner: 7:30 PM</span>
+                </div>
+                <p className="text-gray-800 ml-11 mb-2">
+                  <strong>V Modern Italian</strong>
+                </p>
+                <a
+                  href="https://v.restaurant/nashville/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="ml-11 text-green-600 hover:text-green-700 underline"
+                >
+                  View Menu →
+                </a>
+              </div>
+
+              <Link
+                to="/nightlife"
+                className="block bg-gradient-to-r from-pink-500 to-purple-500 hover:from-pink-600 hover:to-purple-600 text-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-all hover:scale-105"
+              >
+                <div className="flex items-center justify-between">
+                  <div className="flex items-center gap-3">
+                    <span className="text-2xl">🎉</span>
+                    <span className="text-xl" style={{ fontFamily: "'Playfair Display', serif" }}>
+                      Night Out Options
+                    </span>
+                  </div>
+                  <span className="text-2xl">→</span>
+                </div>
+                <p className="text-sm text-white/80 mt-2 ml-11">Click to explore nightlife spots</p>
+              </Link>
+            </div>
+          </div>
+        </div>
+
+        {/* Day 3 - Sunday */}
+        <div className="bg-gradient-to-br from-pink-100 via-pink-50 to-white rounded-3xl p-8 shadow-xl border-4 border-pink-400 mb-8 relative overflow-hidden">
+          <div className="absolute top-0 right-0 w-32 h-32 bg-gradient-to-bl from-yellow-200/30 to-transparent rounded-bl-full" />
+          <div className="relative z-10">
+            <div className="text-center mb-6">
+              <h3 className="text-4xl mb-2" style={{ fontFamily: "'Rye', serif" }}>
+                Day 3 - Sunday
+              </h3>
+              <p className="text-lg text-gray-600">February 19, 2026</p>
+              <p className="text-2xl mt-2">16 PP is out! ✌️</p>
+            </div>
+
+            <div className="space-y-4">
+              <div className="bg-white rounded-xl p-6 shadow-md">
+                <div className="flex items-center gap-3 mb-2">
+                  <span className="text-2xl">🏠</span>
+                  <span className="text-xl font-bold text-pink-700">Check-out: 10:00 AM</span>
+                </div>
+              </div>
+
+              <div className="bg-white rounded-xl p-6 shadow-md">
+                <div className="flex items-center gap-3 mb-2">
+                  <span className="text-2xl">🍳</span>
+                  <span className="text-xl font-bold text-pink-700">Breakfast/Brunch</span>
+                </div>
+                <p className="text-gray-800 ml-11 mb-2">
+                  <strong>Chicago&apos;s Home of Chicken &amp; Waffles</strong>
+                  <br />
+                  <span className="text-sm text-gray-600">For later flights and drivers</span>
+                </p>
+                <a
+                  href="https://chicagoschickenandwafflesnashville.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="ml-11 text-pink-600 hover:text-pink-700 underline"
+                >
+                  View Menu →
+                </a>
+              </div>
+
+              <div className="bg-gradient-to-r from-pink-200 to-pink-300 rounded-xl p-6 text-center">
+                <p className="text-lg text-pink-900" style={{ fontFamily: "'Playfair Display', serif" }}>
+                  ✈️ Safe travels, sorors! Until next time! 💖💚
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
         {/* Packing List */}
         <div className="my-12">
           <PackingList />
@@ -93,7 +300,6 @@ export function HomePage() {
 
         {/* Airbnb Section */}
         <AirbnbSection />
-
       </div>
 
       <Footer />
