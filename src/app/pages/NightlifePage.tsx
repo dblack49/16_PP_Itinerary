@@ -11,7 +11,7 @@ export function NightlifePage() {
       priceRange: "$12-18 per cocktail",
       imageUrl: "https://images.unsplash.com/photo-1558011554-b0dd73a08568?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxuaWdodGNsdWIlMjBiYXIlMjBuZW9uJTIwbGlnaHRzfGVufDF8fHx8MTc3MjE2Nzk3OXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
       highlight: "Rooftop Views",
-      website: "https://www.graduatehotels.com/nashville/restaurants-bars/linq/"
+      website: "https://www.linqsocialkitchen.com/?fbclid=PAZXh0bgNhZW0CMTEAAaaMjuidqoDaeUwPOQJ85qSUFMA3TIwvL6rgdowJxrk4X8t8z8C3VwhOeNo_aem_ws0xZmeJUvXLfI5Kv077kA"
     },
     {
       name: "Jelly Rolls Dueling Piano Bar",
@@ -20,15 +20,15 @@ export function NightlifePage() {
       priceRange: "No cover, tips suggested",
       imageUrl: "https://images.unsplash.com/photo-1558011554-b0dd73a08568?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxuaWdodGNsdWIlMjBiYXIlMjBuZW9uJTIwbGlnaHRzfGVufDF8fHx8MTc3MjE2Nzk3OXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
       highlight: "Must Visit!",
-      website: "https://jellyrollsnashville.com/"
+      website: "https://goodnightnashville.com/"
     },
     {
-      name: "Barstools & Buskers",
+      name: "Barstools",
       description: "Multi-level bar with live music on every floor. Great vibes and always packed with energy!",
       address: "Broadway, Nashville",
       priceRange: "No cover charge",
       imageUrl: "https://images.unsplash.com/photo-1558011554-b0dd73a08568?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxuaWdodGNsdWIlMjBiYXIlMjBuZW9uJTIwbGlnaHRzfGVufDF8fHx8MTc3MjE2Nzk3OXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-      website: "https://www.barstoolsandbuskers.com/"
+      website: "https://www.barstoolnashville.com/"
     },
     {
       name: "Vibes",
@@ -37,7 +37,7 @@ export function NightlifePage() {
       priceRange: "$10-20 cover charge",
       imageUrl: "https://images.unsplash.com/photo-1558011554-b0dd73a08568?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxuaWdodGNsdWIlMjBiYXIlMjBuZW9uJTIwbGlnaHRzfGVufDF8fHx8MTc3MjE2Nzk3OXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
       highlight: "Upscale",
-      website: "https://www.vibesashville.com/"
+      website: "https://vibesbarlounge.com/"
     },
     {
       name: "Jar10",
@@ -45,7 +45,7 @@ export function NightlifePage() {
       address: "Nashville",
       priceRange: "$12-16 per cocktail",
       imageUrl: "https://images.unsplash.com/photo-1558011554-b0dd73a08568?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxuaWdodGNsdWIlMjBiYXIlMjBuZW9uJTIwbGlnaHRzfGVufDF8fHx8MTc3MjE2Nzk3OXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-      website: "https://www.jar10nashville.com/"
+      website: "https://jar10nashville.com/"
     },
     {
       name: "The Spot Nashville",
@@ -53,7 +53,7 @@ export function NightlifePage() {
       address: "Nashville",
       priceRange: "$5-10 cover charge",
       imageUrl: "https://images.unsplash.com/photo-1558011554-b0dd73a08568?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxuaWdodGNsdWIlMjBiYXIlMjBuZW9uJTIwbGlnaHRzfGVufDF8fHx8MTc3MjE2Nzk3OXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-      website: "https://www.thespotnashville.com/"
+      website: "https://nashvillelivedowntown.com/Eat-and-Drink/The-Spot-By-Dre-and-Snoop"
     },
     {
       name: "Skydeck",
@@ -62,7 +62,7 @@ export function NightlifePage() {
       priceRange: "$12-18 per cocktail",
       imageUrl: "https://images.unsplash.com/photo-1558011554-b0dd73a08568?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxuaWdodGNsdWIlMjBiYXIlMjBuZW9uJTIwbGlnaHRzfGVufDF8fHx8MTc3MjE2Nzk3OXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
       highlight: "Skyline Views",
-      website: "https://www.loews.com/nashville/dining/skydeck/"
+      website: "https://www.assemblyfoodhall.com/skydeck/"
     },
     {
       name: "Tootsie's Orchid Lounge",
