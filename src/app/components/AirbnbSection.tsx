@@ -36,8 +36,8 @@ export function AirbnbSection() {
             </h4>
           </div>
           <div className="space-y-2 text-gray-700">
-            <p><strong>Check-in:</strong> Friday, February 17 - 3:00 PM</p>
-            <p><strong>Check-out:</strong> Sunday, February 19 - 10:00 AM</p>
+            <p><strong>Check-in:</strong> Friday, April 17 - 3:00 PM</p>
+            <p><strong>Check-out:</strong> Sunday, April 19 - 10:00 AM</p>
           </div>
         </div>
 
