@@ -1,9 +1,9 @@
-import { Link } from 'react-router';
-import { ItineraryHeader } from '../components/ItineraryHeader';
-import { PackingList } from '../components/PackingList';
-import { AirbnbSection } from '../components/AirbnbSection';
-import { Footer } from '../components/Footer';
-import { Camera } from 'lucide-react';
+import { Link } from "react-router";
+import { ItineraryHeader } from "../components/ItineraryHeader";
+import { PackingList } from "../components/PackingList";
+import { AirbnbSection } from "../components/AirbnbSection";
+import { Footer } from "../components/Footer";
+import { Camera } from "lucide-react";
 
 export function HomePage() {
   return (
@@ -21,8 +21,8 @@ export function HomePage() {
           </h2>
 
           <p className="text-lg text-gray-700 max-w-2xl mx-auto mb-6">
-            Three days of country music, sisterhood, and celebrating five incredible years as line sisters.
-            Click on activities and nightlife to explore your options! 🤠✨
+            Three days of country music, sisterhood, and celebrating five incredible years as line sisters. Click on
+            activities and nightlife to explore your options! 🤠✨
           </p>
 
           {/* Action Buttons */}
@@ -46,23 +46,20 @@ export function HomePage() {
               Photo Album
             </Link>
 
-            {/* Split Payments - Disabled */}
-            <button
-              disabled
-              className="inline-flex items-center justify-center gap-3 bg-gray-300 text-gray-500 px-6 py-4 rounded-full shadow-xl cursor-not-allowed text-lg"
+            {/* Split Payments - Active */}
+            <Link
+              to="/split-payment"
+              className="inline-flex items-center justify-center gap-3 bg-gradient-to-r from-green-500 to-pink-500 hover:from-green-600 hover:to-pink-600 text-white px-6 py-4 rounded-full shadow-xl hover:shadow-2xl transition-all text-lg"
               style={{ fontFamily: "'Playfair Display', serif" }}
             >
-              Split Payments (Coming Soon 💰)
-            </button>
+              Split Payments 💰
+            </Link>
           </div>
         </div>
 
         {/* Important Trip Info */}
         <div className="bg-gradient-to-br from-pink-100 to-green-100 rounded-3xl p-8 shadow-xl border-4 border-yellow-400 mb-12">
-          <h3
-            className="text-3xl text-center mb-6 text-gray-800"
-            style={{ fontFamily: "'Rye', serif" }}
-          >
+          <h3 className="text-3xl text-center mb-6 text-gray-800" style={{ fontFamily: "'Rye', serif" }}>
             Important Trip Info 📋
           </h3>
 
@@ -91,7 +88,7 @@ export function HomePage() {
               <h3 className="text-4xl mb-2" style={{ fontFamily: "'Rye', serif" }}>
                 Day 1 - Friday
               </h3>
-              <p className="text-lg text-gray-600">February 17, 2026</p>
+              <p className="text-lg text-gray-600">April 17, 2026</p>
             </div>
 
             <div className="space-y-4">
@@ -162,7 +159,7 @@ export function HomePage() {
               <h3 className="text-4xl mb-2" style={{ fontFamily: "'Rye', serif" }}>
                 Day 2 - Saturday
               </h3>
-              <p className="text-lg text-gray-600">February 18, 2026</p>
+              <p className="text-lg text-gray-600">April 18, 2026</p>
             </div>
 
             <div className="space-y-4">
@@ -218,7 +215,7 @@ export function HomePage() {
                 <a
                   href="https://v.restaurant/nashville/"
                   target="_blank"
-                  rel="noopener noreferrer"
+                      rel="noopener noreferrer"
                   className="ml-11 text-green-600 hover:text-green-700 underline"
                 >
                   View Menu →
@@ -252,7 +249,7 @@ export function HomePage() {
               <h3 className="text-4xl mb-2" style={{ fontFamily: "'Rye', serif" }}>
                 Day 3 - Sunday
               </h3>
-              <p className="text-lg text-gray-600">February 19, 2026</p>
+              <p className="text-lg text-gray-600">April 19, 2026</p>
               <p className="text-2xl mt-2">16 PP is out! ✌️</p>
             </div>
 
